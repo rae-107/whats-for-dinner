@@ -13,6 +13,8 @@ A webpage that can give you a random meal depending on what what dish you choose
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+<img width="1426" alt="Screen Shot 2022-10-29 at 2 40 47 PM" src="https://user-images.githubusercontent.com/113261334/198851589-cf1f77d8-fa00-4f15-92e9-4b463d925263.png">
+
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
