@@ -1,4 +1,3 @@
-//arraysAndVariables
 var sides = ['miso glazed carrots', 'coleslaw', 'garden salad', 'crispy potatoes', 'sweet potato tots', 'coconut rice', 'caeser salad', 'shrimp summer rolls', 'garlic butter mushrooms', 'hush puppies']
 
 var mains = [ 'spaghetti and meatballs', 'pineapple chicken', 'shakshuka', 'thai yellow curry', 'bibimbap', 'chicken parmesean', 'butternut squash soup', 'bbq chicken burgers', 'ramen', 'empanadas', 'chicken fried rice', 'sheet pan fajitas', 'margarita pizza']
@@ -8,7 +7,6 @@ var desserts = ['apple pie', 'lemon meringue pie', 'black forest cake', 'banana 
 var mealName
 var favoriteMeals = []
 
-//querySelectors
 //buttons
 var sideButton = document.querySelector('#side-radio')
 var mainButton = document.querySelector('#main-radio')
@@ -35,23 +33,16 @@ letsCookButton.addEventListener('click', function() {
     toggleCookpotDisplay()
 })
 
-viewFavoritesButton.addEventListener('click', function() {
-    toggleFavoriteDisplay()
-})
+viewFavoritesButton.addEventListener('click', toggleFavoriteDisplay)
 
-backToMainButton.addEventListener('click', function() {
-    toggleFavoriteDisplay()
-})
+backToMainButton.addEventListener('click', toggleFavoriteDisplay)
 
 addFavoriteButton.addEventListener('click', function() {
     addFavorite()
     displayFavorites()
 })
 
-removeRecipeButton.addEventListener('click', function() {
-    // toggleRemoveInput()
-    deleteRecipe()
-})
+removeRecipeButton.addEventListener('click', deleteRecipe)
 
 //functions
 function getRandomMeal(mealArray) {
