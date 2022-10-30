@@ -81,7 +81,9 @@ function checkRadio() {
 }
 
 function addFavorite() {
-    favoriteMeals.push(mealName[0].toUpperCase() + mealName.slice(1))
+    if (!favoriteMeals.includes(mealName[0].toUpperCase() + mealName.slice(1))) {
+        favoriteMeals.push(mealName[0].toUpperCase() + mealName.slice(1))
+    } 
 }
         
 function displayFavorites() {
