@@ -6,23 +6,25 @@ A webpage that can give you a random meal depending on what what dish you choose
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
-1) Fork this repository
-2) Copy git@github.com:rae-107/whats-for-dinner.git and clone the repository
-3) Change directories into cloned repository
-4) Open up your text editor
+- Clone the SSH code from this [link](https://github.com/rae-107/whats-for-dinner) to your local computer
+- Open in your text editor 
+- Read the README.md 
+- In the terminal, run the coommand open index.html for initial deployment and interaction with app
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-<img width="1426" alt="Screen Shot 2022-10-29 at 2 40 47 PM" src="https://user-images.githubusercontent.com/113261334/198851589-cf1f77d8-fa00-4f15-92e9-4b463d925263.png">
+[Link to Webpage](https://rae-107.github.io/whats-for-dinner/)
 
+
+<img width="1426" alt="Screen Shot 2022-10-29 at 2 40 47 PM" src="https://user-images.githubusercontent.com/113261334/198851589-cf1f77d8-fa00-4f15-92e9-4b463d925263.png">
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
-I'm a Mod 1 student. I have worked on this project for around 15 hours.
+I'm a Mod 1 student. I have worked on this project for approximately 15 hours.
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
-Rae Gebhart: https://github.com/rae-107
+Rae's [LinkedIn](https://www.linkedin.com/in/rae-gebhart-681449254/) [Github](https://github.com/rae-107)
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
